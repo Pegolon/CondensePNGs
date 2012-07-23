@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DB979D615BD9BCD00641D42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB979D515BD9BCD00641D42 /* UIKit.framework */; };
+		4DB979D815BD9BCD00641D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB979D715BD9BCD00641D42 /* Foundation.framework */; };
+		4DB979DA15BD9BCD00641D42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB979D915BD9BCD00641D42 /* CoreGraphics.framework */; };
+		4DB979E015BD9BCD00641D42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DB979DE15BD9BCD00641D42 /* InfoPlist.strings */; };
+		4DB979E215BD9BCD00641D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB979E115BD9BCD00641D42 /* main.m */; };
+		4DB979E615BD9BCD00641D42 /* DrcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB979E515BD9BCD00641D42 /* DrcAppDelegate.m */; };
+		4DE653BC15BD9CA800C5C9FF /* DrcImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE653BB15BD9CA800C5C9FF /* DrcImageLoader.m */; };
+		4DE653E615BDADFD00C5C9FF /* lolcat1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653E215BDADFD00C5C9FF /* lolcat1.png */; };
+		4DE653E715BDADFD00C5C9FF /* lolcat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653E315BDADFD00C5C9FF /* lolcat2.png */; };
+		4DE653E815BDADFD00C5C9FF /* lolcat3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653E415BDADFD00C5C9FF /* lolcat3.png */; };
+		4DE653E915BDADFD00C5C9FF /* lolcat4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653E515BDADFD00C5C9FF /* lolcat4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DB979D115BD9BCD00641D42 /* CondensePNGs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CondensePNGs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB979D515BD9BCD00641D42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DB979D715BD9BCD00641D42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DB979D915BD9BCD00641D42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DB979DD15BD9BCD00641D42 /* CondensePNGs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CondensePNGs-Info.plist"; sourceTree = "<group>"; };
+		4DB979DF15BD9BCD00641D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DB979E115BD9BCD00641D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DB979E315BD9BCD00641D42 /* CondensePNGs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CondensePNGs-Prefix.pch"; sourceTree = "<group>"; };
+		4DB979E415BD9BCD00641D42 /* DrcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrcAppDelegate.h; sourceTree = "<group>"; };
+		4DB979E515BD9BCD00641D42 /* DrcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrcAppDelegate.m; sourceTree = "<group>"; };
+		4DE653BA15BD9CA800C5C9FF /* DrcImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrcImageLoader.h; path = ../../Common/Sources/DrcImageLoader.h; sourceTree = "<group>"; };
+		4DE653BB15BD9CA800C5C9FF /* DrcImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrcImageLoader.m; path = ../../Common/Sources/DrcImageLoader.m; sourceTree = "<group>"; };
+		4DE653E215BDADFD00C5C9FF /* lolcat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat1.png; sourceTree = "<group>"; };
+		4DE653E315BDADFD00C5C9FF /* lolcat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat2.png; sourceTree = "<group>"; };
+		4DE653E415BDADFD00C5C9FF /* lolcat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat3.png; sourceTree = "<group>"; };
+		4DE653E515BDADFD00C5C9FF /* lolcat4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB979CE15BD9BCD00641D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB979D615BD9BCD00641D42 /* UIKit.framework in Frameworks */,
+				4DB979D815BD9BCD00641D42 /* Foundation.framework in Frameworks */,
+				4DB979DA15BD9BCD00641D42 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB979C615BD9BCD00641D42 = {
+			isa = PBXGroup;
+			children = (
+				4DB979DB15BD9BCD00641D42 /* CondensePNGs */,
+				4DE653E115BDADFD00C5C9FF /* Images */,
+				4DB979D415BD9BCD00641D42 /* Frameworks */,
+				4DB979D215BD9BCD00641D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB979D215BD9BCD00641D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB979D115BD9BCD00641D42 /* CondensePNGs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB979D415BD9BCD00641D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB979D515BD9BCD00641D42 /* UIKit.framework */,
+				4DB979D715BD9BCD00641D42 /* Foundation.framework */,
+				4DB979D915BD9BCD00641D42 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DB979DB15BD9BCD00641D42 /* CondensePNGs */ = {
+			isa = PBXGroup;
+			children = (
+				4DB979E415BD9BCD00641D42 /* DrcAppDelegate.h */,
+				4DB979E515BD9BCD00641D42 /* DrcAppDelegate.m */,
+				4DE653BA15BD9CA800C5C9FF /* DrcImageLoader.h */,
+				4DE653BB15BD9CA800C5C9FF /* DrcImageLoader.m */,
+				4DB979DC15BD9BCD00641D42 /* Supporting Files */,
+			);
+			path = CondensePNGs;
+			sourceTree = "<group>";
+		};
+		4DB979DC15BD9BCD00641D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB979DD15BD9BCD00641D42 /* CondensePNGs-Info.plist */,
+				4DB979DE15BD9BCD00641D42 /* InfoPlist.strings */,
+				4DB979E115BD9BCD00641D42 /* main.m */,
+				4DB979E315BD9BCD00641D42 /* CondensePNGs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DE653E115BDADFD00C5C9FF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4DE653E215BDADFD00C5C9FF /* lolcat1.png */,
+				4DE653E315BDADFD00C5C9FF /* lolcat2.png */,
+				4DE653E415BDADFD00C5C9FF /* lolcat3.png */,
+				4DE653E515BDADFD00C5C9FF /* lolcat4.png */,
+			);
+			name = Images;
+			path = ../Common/Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB979D015BD9BCD00641D42 /* CondensePNGs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB979E915BD9BCD00641D42 /* Build configuration list for PBXNativeTarget "CondensePNGs" */;
+			buildPhases = (
+				4DB979CD15BD9BCD00641D42 /* Sources */,
+				4DB979CE15BD9BCD00641D42 /* Frameworks */,
+				4DB979CF15BD9BCD00641D42 /* Resources */,
+				4DE653D415BDA96900C5C9FF /* Condense PNGs */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CondensePNGs;
+			productName = CondensePNGs;
+			productReference = 4DB979D115BD9BCD00641D42 /* CondensePNGs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB979C815BD9BCD00641D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Drc;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = dressyco.de;
+			};
+			buildConfigurationList = 4DB979CB15BD9BCD00641D42 /* Build configuration list for PBXProject "CondensePNGs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DB979C615BD9BCD00641D42;
+			productRefGroup = 4DB979D215BD9BCD00641D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB979D015BD9BCD00641D42 /* CondensePNGs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB979CF15BD9BCD00641D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB979E015BD9BCD00641D42 /* InfoPlist.strings in Resources */,
+				4DE653E615BDADFD00C5C9FF /* lolcat1.png in Resources */,
+				4DE653E715BDADFD00C5C9FF /* lolcat2.png in Resources */,
+				4DE653E815BDADFD00C5C9FF /* lolcat3.png in Resources */,
+				4DE653E915BDADFD00C5C9FF /* lolcat4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DE653D415BDA96900C5C9FF /* Condense PNGs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Condense PNGs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "RUBY19=~/.rvm/rubies/ruby-1.9.3-p194/bin/ruby\nif [ ! -f \"$RUBY19\" ]\nthen\n  echo \"Please adjust build phase or install ruby 1.9.3 to use this\"\n  exit \nfi\n\n$RUBY19 \"${SRCROOT}/../Common/Scripts/condense_png.rb\" --source \"$TARGET_BUILD_DIR/$WRAPPER_NAME/$APP_PATH\" --reduction-percentage 5 --min-file-size 10k --depth 1\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB979CD15BD9BCD00641D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB979E215BD9BCD00641D42 /* main.m in Sources */,
+				4DB979E615BD9BCD00641D42 /* DrcAppDelegate.m in Sources */,
+				4DE653BC15BD9CA800C5C9FF /* DrcImageLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DB979DE15BD9BCD00641D42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB979DF15BD9BCD00641D42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB979E715BD9BCD00641D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DB979E815BD9BCD00641D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB979EA15BD9BCD00641D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CondensePNGs/CondensePNGs-Prefix.pch";
+				INFOPLIST_FILE = "CondensePNGs/CondensePNGs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DB979EB15BD9BCD00641D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CondensePNGs/CondensePNGs-Prefix.pch";
+				INFOPLIST_FILE = "CondensePNGs/CondensePNGs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB979CB15BD9BCD00641D42 /* Build configuration list for PBXProject "CondensePNGs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB979E715BD9BCD00641D42 /* Debug */,
+				4DB979E815BD9BCD00641D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB979E915BD9BCD00641D42 /* Build configuration list for PBXNativeTarget "CondensePNGs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB979EA15BD9BCD00641D42 /* Debug */,
+				4DB979EB15BD9BCD00641D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB979C815BD9BCD00641D42 /* Project object */;
+}

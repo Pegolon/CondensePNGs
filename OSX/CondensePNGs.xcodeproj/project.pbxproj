@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DB979FC15BD9C0100641D42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB979FB15BD9C0100641D42 /* Cocoa.framework */; };
+		4DB97A0615BD9C0100641D42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DB97A0415BD9C0100641D42 /* InfoPlist.strings */; };
+		4DB97A0815BD9C0100641D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB97A0715BD9C0100641D42 /* main.m */; };
+		4DB97A0C15BD9C0100641D42 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB97A0A15BD9C0100641D42 /* Credits.rtf */; };
+		4DB97A0F15BD9C0100641D42 /* DrcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB97A0E15BD9C0100641D42 /* DrcAppDelegate.m */; };
+		4DB97A1215BD9C0200641D42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB97A1015BD9C0200641D42 /* MainMenu.xib */; };
+		4DE653C415BDA36700C5C9FF /* DrcImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE653C315BDA36700C5C9FF /* DrcImageLoader.m */; };
+		4DE653DD15BDADB300C5C9FF /* lolcat1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653D915BDADB300C5C9FF /* lolcat1.png */; };
+		4DE653DE15BDADB300C5C9FF /* lolcat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653DA15BDADB300C5C9FF /* lolcat2.png */; };
+		4DE653DF15BDADB300C5C9FF /* lolcat3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653DB15BDADB300C5C9FF /* lolcat3.png */; };
+		4DE653E015BDADB300C5C9FF /* lolcat4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653DC15BDADB300C5C9FF /* lolcat4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DB979F715BD9C0100641D42 /* CondensePNGs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CondensePNGs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB979FB15BD9C0100641D42 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4DB979FE15BD9C0100641D42 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4DB979FF15BD9C0100641D42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4DB97A0015BD9C0100641D42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DB97A0315BD9C0100641D42 /* CondensePNGs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CondensePNGs-Info.plist"; sourceTree = "<group>"; };
+		4DB97A0515BD9C0100641D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DB97A0715BD9C0100641D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DB97A0915BD9C0100641D42 /* CondensePNGs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CondensePNGs-Prefix.pch"; sourceTree = "<group>"; };
+		4DB97A0B15BD9C0100641D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4DB97A0D15BD9C0100641D42 /* DrcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrcAppDelegate.h; sourceTree = "<group>"; };
+		4DB97A0E15BD9C0100641D42 /* DrcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrcAppDelegate.m; sourceTree = "<group>"; };
+		4DB97A1115BD9C0200641D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4DE653C215BDA36700C5C9FF /* DrcImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrcImageLoader.h; path = ../../Common/Sources/DrcImageLoader.h; sourceTree = "<group>"; };
+		4DE653C315BDA36700C5C9FF /* DrcImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrcImageLoader.m; path = ../../Common/Sources/DrcImageLoader.m; sourceTree = "<group>"; };
+		4DE653D115BDA88600C5C9FF /* condense_png.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; name = condense_png.rb; path = ../Common/Scripts/condense_png.rb; sourceTree = "<group>"; };
+		4DE653D915BDADB300C5C9FF /* lolcat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat1.png; sourceTree = "<group>"; };
+		4DE653DA15BDADB300C5C9FF /* lolcat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat2.png; sourceTree = "<group>"; };
+		4DE653DB15BDADB300C5C9FF /* lolcat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat3.png; sourceTree = "<group>"; };
+		4DE653DC15BDADB300C5C9FF /* lolcat4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB979F415BD9C0100641D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB979FC15BD9C0100641D42 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB979EC15BD9C0100641D42 = {
+			isa = PBXGroup;
+			children = (
+				4DB97A0115BD9C0100641D42 /* CondensePNGs */,
+				4DE653D015BDA87400C5C9FF /* Scripts */,
+				4DE653D815BDADB300C5C9FF /* Images */,
+				4DB979FA15BD9C0100641D42 /* Frameworks */,
+				4DB979F815BD9C0100641D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB979F815BD9C0100641D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB979F715BD9C0100641D42 /* CondensePNGs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB979FA15BD9C0100641D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB979FB15BD9C0100641D42 /* Cocoa.framework */,
+				4DB979FD15BD9C0100641D42 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DB979FD15BD9C0100641D42 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB979FE15BD9C0100641D42 /* AppKit.framework */,
+				4DB979FF15BD9C0100641D42 /* CoreData.framework */,
+				4DB97A0015BD9C0100641D42 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4DB97A0115BD9C0100641D42 /* CondensePNGs */ = {
+			isa = PBXGroup;
+			children = (
+				4DB97A0D15BD9C0100641D42 /* DrcAppDelegate.h */,
+				4DB97A0E15BD9C0100641D42 /* DrcAppDelegate.m */,
+				4DE653C215BDA36700C5C9FF /* DrcImageLoader.h */,
+				4DE653C315BDA36700C5C9FF /* DrcImageLoader.m */,
+				4DB97A1015BD9C0200641D42 /* MainMenu.xib */,
+				4DB97A0215BD9C0100641D42 /* Supporting Files */,
+			);
+			path = CondensePNGs;
+			sourceTree = "<group>";
+		};
+		4DB97A0215BD9C0100641D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB97A0315BD9C0100641D42 /* CondensePNGs-Info.plist */,
+				4DB97A0415BD9C0100641D42 /* InfoPlist.strings */,
+				4DB97A0715BD9C0100641D42 /* main.m */,
+				4DB97A0915BD9C0100641D42 /* CondensePNGs-Prefix.pch */,
+				4DB97A0A15BD9C0100641D42 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DE653D015BDA87400C5C9FF /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				4DE653D115BDA88600C5C9FF /* condense_png.rb */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		4DE653D815BDADB300C5C9FF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4DE653D915BDADB300C5C9FF /* lolcat1.png */,
+				4DE653DA15BDADB300C5C9FF /* lolcat2.png */,
+				4DE653DB15BDADB300C5C9FF /* lolcat3.png */,
+				4DE653DC15BDADB300C5C9FF /* lolcat4.png */,
+			);
+			name = Images;
+			path = ../Common/Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB979F615BD9C0100641D42 /* CondensePNGs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB97A1515BD9C0200641D42 /* Build configuration list for PBXNativeTarget "CondensePNGs" */;
+			buildPhases = (
+				4DB979F315BD9C0100641D42 /* Sources */,
+				4DB979F415BD9C0100641D42 /* Frameworks */,
+				4DB979F515BD9C0100641D42 /* Resources */,
+				4DE653D315BDA8D400C5C9FF /* Condense PNGs */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CondensePNGs;
+			productName = CondensePNGs;
+			productReference = 4DB979F715BD9C0100641D42 /* CondensePNGs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB979EE15BD9C0100641D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Drc;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = dressyco.de;
+			};
+			buildConfigurationList = 4DB979F115BD9C0100641D42 /* Build configuration list for PBXProject "CondensePNGs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DB979EC15BD9C0100641D42;
+			productRefGroup = 4DB979F815BD9C0100641D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB979F615BD9C0100641D42 /* CondensePNGs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB979F515BD9C0100641D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB97A0615BD9C0100641D42 /* InfoPlist.strings in Resources */,
+				4DB97A0C15BD9C0100641D42 /* Credits.rtf in Resources */,
+				4DB97A1215BD9C0200641D42 /* MainMenu.xib in Resources */,
+				4DE653DD15BDADB300C5C9FF /* lolcat1.png in Resources */,
+				4DE653DE15BDADB300C5C9FF /* lolcat2.png in Resources */,
+				4DE653DF15BDADB300C5C9FF /* lolcat3.png in Resources */,
+				4DE653E015BDADB300C5C9FF /* lolcat4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DE653D315BDA8D400C5C9FF /* Condense PNGs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Condense PNGs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "RUBY19=~/.rvm/rubies/ruby-1.9.3-p194/bin/ruby\nif [ ! -f \"$RUBY19\" ]\nthen\n  echo \"Please adjust build phase or install ruby 1.9.3 to use this\"\n  exit \nfi\n\n$RUBY19 \"${SRCROOT}/../Common/Scripts/condense_png.rb\" --source \"$TARGET_BUILD_DIR/$WRAPPER_NAME/$APP_PATH/Contents/Resources\" --reduction-percentage 5 --min-file-size 10k --depth 1\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB979F315BD9C0100641D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB97A0815BD9C0100641D42 /* main.m in Sources */,
+				4DB97A0F15BD9C0100641D42 /* DrcAppDelegate.m in Sources */,
+				4DE653C415BDA36700C5C9FF /* DrcImageLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DB97A0415BD9C0100641D42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB97A0515BD9C0100641D42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4DB97A0A15BD9C0100641D42 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB97A0B15BD9C0100641D42 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4DB97A1015BD9C0200641D42 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB97A1115BD9C0200641D42 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB97A1315BD9C0200641D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DB97A1415BD9C0200641D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DB97A1615BD9C0200641D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CondensePNGs/CondensePNGs-Prefix.pch";
+				INFOPLIST_FILE = "CondensePNGs/CondensePNGs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DB97A1715BD9C0200641D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CondensePNGs/CondensePNGs-Prefix.pch";
+				INFOPLIST_FILE = "CondensePNGs/CondensePNGs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB979F115BD9C0100641D42 /* Build configuration list for PBXProject "CondensePNGs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB97A1315BD9C0200641D42 /* Debug */,
+				4DB97A1415BD9C0200641D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB97A1515BD9C0200641D42 /* Build configuration list for PBXNativeTarget "CondensePNGs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB97A1615BD9C0200641D42 /* Debug */,
+				4DB97A1715BD9C0200641D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB979EE15BD9C0100641D42 /* Project object */;
+}
