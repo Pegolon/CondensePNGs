@@ -7,10 +7,12 @@
 //
 
 #import "DrcAppDelegate.h"
+#import "DrcWindowController.h"
 
 @implementation DrcAppDelegate
 
 @synthesize window = _window;
+
 
 - (void)dealloc
 {
@@ -19,7 +21,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
+	DrcWindowController *windowController = [[DrcWindowController alloc] initWithWindowNibName:@"DrcWindowController"];
+	[windowController showWindow:nil];
 }
 
 @end

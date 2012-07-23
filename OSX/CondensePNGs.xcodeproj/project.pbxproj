@@ -18,6 +18,14 @@
 		4DE653DE15BDADB300C5C9FF /* lolcat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653DA15BDADB300C5C9FF /* lolcat2.png */; };
 		4DE653DF15BDADB300C5C9FF /* lolcat3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653DB15BDADB300C5C9FF /* lolcat3.png */; };
 		4DE653E015BDADB300C5C9FF /* lolcat4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653DC15BDADB300C5C9FF /* lolcat4.png */; };
+		4DE6540515BDBAA000C5C9FF /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE653FF15BDBAA000C5C9FF /* earth.png */; };
+		4DE6540615BDBAA000C5C9FF /* earth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6540015BDBAA000C5C9FF /* earth@2x.png */; };
+		4DE6540715BDBAA000C5C9FF /* lolcat1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6540115BDBAA000C5C9FF /* lolcat1@2x.png */; };
+		4DE6540815BDBAA000C5C9FF /* lolcat2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6540215BDBAA000C5C9FF /* lolcat2@2x.png */; };
+		4DE6540915BDBAA000C5C9FF /* lolcat3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6540315BDBAA000C5C9FF /* lolcat3@2x.png */; };
+		4DE6540A15BDBAA000C5C9FF /* lolcat4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6540415BDBAA000C5C9FF /* lolcat4@2x.png */; };
+		4DE6541115BDBD4000C5C9FF /* DrcWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6540F15BDBD4000C5C9FF /* DrcWindowController.m */; };
+		4DE6541215BDBD4000C5C9FF /* DrcWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6541015BDBD4000C5C9FF /* DrcWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +49,15 @@
 		4DE653DA15BDADB300C5C9FF /* lolcat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat2.png; sourceTree = "<group>"; };
 		4DE653DB15BDADB300C5C9FF /* lolcat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat3.png; sourceTree = "<group>"; };
 		4DE653DC15BDADB300C5C9FF /* lolcat4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lolcat4.png; sourceTree = "<group>"; };
+		4DE653FF15BDBAA000C5C9FF /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		4DE6540015BDBAA000C5C9FF /* earth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth@2x.png"; sourceTree = "<group>"; };
+		4DE6540115BDBAA000C5C9FF /* lolcat1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lolcat1@2x.png"; sourceTree = "<group>"; };
+		4DE6540215BDBAA000C5C9FF /* lolcat2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lolcat2@2x.png"; sourceTree = "<group>"; };
+		4DE6540315BDBAA000C5C9FF /* lolcat3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lolcat3@2x.png"; sourceTree = "<group>"; };
+		4DE6540415BDBAA000C5C9FF /* lolcat4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lolcat4@2x.png"; sourceTree = "<group>"; };
+		4DE6540E15BDBD4000C5C9FF /* DrcWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrcWindowController.h; sourceTree = "<group>"; };
+		4DE6540F15BDBD4000C5C9FF /* DrcWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrcWindowController.m; sourceTree = "<group>"; };
+		4DE6541015BDBD4000C5C9FF /* DrcWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrcWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +113,9 @@
 		4DB97A0115BD9C0100641D42 /* CondensePNGs */ = {
 			isa = PBXGroup;
 			children = (
-				4DB97A0D15BD9C0100641D42 /* DrcAppDelegate.h */,
-				4DB97A0E15BD9C0100641D42 /* DrcAppDelegate.m */,
 				4DE653C215BDA36700C5C9FF /* DrcImageLoader.h */,
 				4DE653C315BDA36700C5C9FF /* DrcImageLoader.m */,
-				4DB97A1015BD9C0200641D42 /* MainMenu.xib */,
+				4DE6541315BDBED200C5C9FF /* Test UI */,
 				4DB97A0215BD9C0100641D42 /* Supporting Files */,
 			);
 			path = CondensePNGs;
@@ -129,13 +144,32 @@
 		4DE653D815BDADB300C5C9FF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4DE653FF15BDBAA000C5C9FF /* earth.png */,
 				4DE653D915BDADB300C5C9FF /* lolcat1.png */,
 				4DE653DA15BDADB300C5C9FF /* lolcat2.png */,
 				4DE653DB15BDADB300C5C9FF /* lolcat3.png */,
 				4DE653DC15BDADB300C5C9FF /* lolcat4.png */,
+				4DE6540015BDBAA000C5C9FF /* earth@2x.png */,
+				4DE6540115BDBAA000C5C9FF /* lolcat1@2x.png */,
+				4DE6540215BDBAA000C5C9FF /* lolcat2@2x.png */,
+				4DE6540315BDBAA000C5C9FF /* lolcat3@2x.png */,
+				4DE6540415BDBAA000C5C9FF /* lolcat4@2x.png */,
 			);
 			name = Images;
 			path = ../Common/Images;
+			sourceTree = "<group>";
+		};
+		4DE6541315BDBED200C5C9FF /* Test UI */ = {
+			isa = PBXGroup;
+			children = (
+				4DB97A0D15BD9C0100641D42 /* DrcAppDelegate.h */,
+				4DB97A0E15BD9C0100641D42 /* DrcAppDelegate.m */,
+				4DB97A1015BD9C0200641D42 /* MainMenu.xib */,
+				4DE6540E15BDBD4000C5C9FF /* DrcWindowController.h */,
+				4DE6540F15BDBD4000C5C9FF /* DrcWindowController.m */,
+				4DE6541015BDBD4000C5C9FF /* DrcWindowController.xib */,
+			);
+			name = "Test UI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +232,13 @@
 				4DE653DE15BDADB300C5C9FF /* lolcat2.png in Resources */,
 				4DE653DF15BDADB300C5C9FF /* lolcat3.png in Resources */,
 				4DE653E015BDADB300C5C9FF /* lolcat4.png in Resources */,
+				4DE6540515BDBAA000C5C9FF /* earth.png in Resources */,
+				4DE6540615BDBAA000C5C9FF /* earth@2x.png in Resources */,
+				4DE6540715BDBAA000C5C9FF /* lolcat1@2x.png in Resources */,
+				4DE6540815BDBAA000C5C9FF /* lolcat2@2x.png in Resources */,
+				4DE6540915BDBAA000C5C9FF /* lolcat3@2x.png in Resources */,
+				4DE6540A15BDBAA000C5C9FF /* lolcat4@2x.png in Resources */,
+				4DE6541215BDBD4000C5C9FF /* DrcWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +270,7 @@
 				4DB97A0815BD9C0100641D42 /* main.m in Sources */,
 				4DB97A0F15BD9C0100641D42 /* DrcAppDelegate.m in Sources */,
 				4DE653C415BDA36700C5C9FF /* DrcImageLoader.m in Sources */,
+				4DE6541115BDBD4000C5C9FF /* DrcWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

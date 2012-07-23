@@ -19,7 +19,7 @@
 	if ([name pathExtension].length == 0) {
 		name = [name stringByAppendingPathExtension:@"png"];
 	}
-	NSString *imagePath = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:name];
+	NSString *imagePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:name];
 	if (imagePath) {
 		CGFloat scale = 1.0;
 		CGImageRef imageRef = DrcLoadImage(imagePath, &scale);

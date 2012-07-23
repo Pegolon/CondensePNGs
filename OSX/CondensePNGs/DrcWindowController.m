@@ -7,12 +7,15 @@
 //
 
 #import "DrcWindowController.h"
-
-@interface DrcWindowController ()
-
-@end
+#import "DrcImageLoader.h"
 
 @implementation DrcWindowController
+
+@synthesize imageView1 = _imageView1;
+@synthesize imageView2 = _imageView2;
+@synthesize imageView3 = _imageView3;
+@synthesize imageView4 = _imageView4;
+@synthesize imageView5 = _imageView5;
 
 - (id)initWithWindow:(NSWindow *)window
 {
@@ -28,7 +31,11 @@
 {
     [super windowDidLoad];
     
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+	self.imageView1.image = [NSImage drc_imageFromBundleWithName:@"lolcat1"];
+	self.imageView2.image = [NSImage drc_imageFromBundleWithName:@"lolcat2"];
+	self.imageView3.image = [NSImage drc_imageFromBundleWithName:@"lolcat3"];
+	self.imageView4.image = [NSImage drc_imageFromBundleWithName:@"lolcat4"];
+	self.imageView5.image = [NSImage drc_imageFromBundleWithName:@"earth"];
 }
 
 @end
